@@ -1,0 +1,28 @@
+{
+    "name": "CUHK-JC-iCar",
+    "version": "2.0.6",
+    "description": "",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "i2c.cpp",
+        "shims.d.ts",
+        "enums.d.ts",
+        "sendBuffer.asm",
+        "_locales/zh-tw/iCar-strings.json"
+    ],
+    "testFiles": [
+        
+    ],
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
